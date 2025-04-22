@@ -26,39 +26,99 @@
     <h2 class="text-center mb-4" data-aos="fade-up">Resources to Jumpstart Your PM Career</h2>
 
     <section class="my-5">
-      <h3 class="text-center mb-4" data-aos="fade-up">PM Roadmap at a Glance</h3>
-      <div class="d-flex flex-wrap justify-content-center align-items-start text-center gap-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="p-3 shadow rounded bg-white" style="width: 180px;">
-          <div class="fs-1">🔍</div>
-          <h6 class="mt-2">Explore</h6>
-          <p class="small text-muted">Learn what PMs do and where you fit in.</p>
+        <h3 class="text-center mb-4" data-aos="fade-up">PM Roadmap at a Glance</h3>
+        <div class="d-flex flex-wrap justify-content-center align-items-start text-center gap-4 roadmap-section" data-aos="fade-up" data-aos-delay="100">
+      
+          <div class="roadmap-step">
+            <div class="step-number">1</div>
+            <div class="fs-1">🔍</div>
+            <h6 class="mt-2">Explore</h6>
+            <p class="small text-muted">Learn what PMs do and where you fit in.</p>
+          </div>
+      
+          <div class="roadmap-line"></div>
+      
+          <div class="roadmap-step">
+            <div class="step-number">2</div>
+            <div class="fs-1">🛠️</div>
+            <h6 class="mt-2">Build Skills</h6>
+            <p class="small text-muted">Pick up key PM skills, tools, and mindsets.</p>
+          </div>
+      
+          <div class="roadmap-line"></div>
+      
+          <div class="roadmap-step">
+            <div class="step-number">3</div>
+            <div class="fs-1">📄</div>
+            <h6 class="mt-2">Resume</h6>
+            <p class="small text-muted">Craft impact-driven resume & LinkedIn.</p>
+          </div>
+      
+          <div class="roadmap-line"></div>
+      
+          <div class="roadmap-step">
+            <div class="step-number">4</div>
+            <div class="fs-1">🧠</div>
+            <h6 class="mt-2">Practice</h6>
+            <p class="small text-muted">Prep product sense, metrics & execution.</p>
+          </div>
+      
+          <div class="roadmap-line"></div>
+      
+          <div class="roadmap-step">
+            <div class="step-number">5</div>
+            <div class="fs-1">🚀</div>
+            <h6 class="mt-2">Apply</h6>
+            <p class="small text-muted">Apply smartly and track your progress.</p>
+          </div>
+      
         </div>
-        <div class="fs-1 mt-3">➡️</div>
-        <div class="p-3 shadow rounded bg-white" style="width: 180px;">
-          <div class="fs-1">🛠️</div>
-          <h6 class="mt-2">Build Skills</h6>
-          <p class="small text-muted">Pick up key PM skills, tools, and mindsets.</p>
-        </div>
-        <div class="fs-1 mt-3">➡️</div>
-        <div class="p-3 shadow rounded bg-white" style="width: 180px;">
-          <div class="fs-1">📄</div>
-          <h6 class="mt-2">Resume</h6>
-          <p class="small text-muted">Craft impact-driven resume & LinkedIn.</p>
-        </div>
-        <div class="fs-1 mt-3">➡️</div>
-        <div class="p-3 shadow rounded bg-white" style="width: 180px;">
-          <div class="fs-1">🧠</div>
-          <h6 class="mt-2">Practice</h6>
-          <p class="small text-muted">Prep product sense, metrics & execution.</p>
-        </div>
-        <div class="fs-1 mt-3">➡️</div>
-        <div class="p-3 shadow rounded bg-white" style="width: 180px;">
-          <div class="fs-1">🚀</div>
-          <h6 class="mt-2">Apply</h6>
-          <p class="small text-muted">Apply smartly and track your progress.</p>
-        </div>
-      </div>
-    </section>
+      </section>
+      
+      <style>
+        .roadmap-section {
+          gap: 1rem;
+        }
+        .roadmap-step {
+          background-color: #fff;
+          padding: 1rem;
+          width: 160px;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+          transition: transform 0.3s;
+        }
+        .roadmap-step:hover {
+          transform: translateY(-5px);
+        }
+        .step-number {
+          background: #007bff;
+          color: #fff;
+          width: 28px;
+          height: 28px;
+          font-size: 0.9rem;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          margin: 0 auto 0.5rem;
+        }
+        .roadmap-line {
+          width: 40px;
+          height: 2px;
+          background-color: #ccc;
+          align-self: center;
+        }
+        @media (max-width: 768px) {
+          .roadmap-section {
+            flex-direction: column;
+          }
+          .roadmap-line {
+            width: 2px;
+            height: 30px;
+          }
+        }
+      </style>
 
     <section class="mt-5">
       <h3 data-aos="fade-up">Top Tools</h3>
