@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +7,25 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-  <header class="bg-primary text-white p-3">
+  <header class="bg-primary text-white p-3" data-aos="fade-down">
     <div class="container d-flex justify-content-between align-items-center">
       <h1 class="h3">PM Pathfinder</h1>
       <nav>
         <a href="index.html" class="text-white mx-2">Home</a>
         <a href="resources.html" class="text-white mx-2">Resources</a>
         <a href="about.html" class="text-white mx-2">About</a>
+        <a href="contact.html" class="text-white mx-2">Contact</a>
       </nav>
     </div>
   </header>
 
   <section class="hero-section text-white text-center py-5" style="background: linear-gradient(to right, #007bff, #00c6ff);">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <h1 class="display-4 fw-bold">Your Roadmap to a Career in Product Management</h1>
       <p class="lead mt-3">Curated tools, expert advice, and proven strategies to help you break into PM with confidence.</p>
-      <!-- <img src="images/product-manager-photo.jpg" alt="Product Manager Roles" class="img-fluid my-4" style="max-width: 600px;"> -->
       <a href="resources.html" class="btn btn-light btn-lg me-3 mt-3">Explore Resources</a>
       <a href="#why" class="btn btn-outline-light btn-lg mt-3">Why PM Pathfinder?</a>
     </div>
@@ -33,9 +33,9 @@
 
   <section class="py-5 bg-light" id="why">
     <div class="container text-center">
-      <h2 class="mb-4">Why PM Pathfinder?</h2>
+      <h2 class="mb-4" data-aos="fade-up">Why PM Pathfinder?</h2>
       <div class="row g-4">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
           <div class="card h-100 shadow">
             <div class="card-body">
               <i class="bi bi-bar-chart-fill fs-1 text-primary mb-3"></i>
@@ -44,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
           <div class="card h-100 shadow">
             <div class="card-body">
               <i class="bi bi-lightbulb-fill fs-1 text-primary mb-3"></i>
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
           <div class="card h-100 shadow">
             <div class="card-body">
               <i class="bi bi-people-fill fs-1 text-primary mb-3"></i>
@@ -67,12 +67,11 @@
   </section>
 
   <section class="bg-light py-5 border-top border-bottom">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <h3 class="text-center mb-5">What Others Are Saying</h3>
-  
+
       <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-  
           <div class="carousel-item active">
             <div class="card shadow-sm border-0 p-4 mx-auto" style="max-width: 600px;">
               <div class="d-flex align-items-center mb-3">
@@ -87,7 +86,7 @@
               </blockquote>
             </div>
           </div>
-  
+
           <div class="carousel-item">
             <div class="card shadow-sm border-0 p-4 mx-auto" style="max-width: 600px;">
               <div class="d-flex align-items-center mb-3">
@@ -102,7 +101,7 @@
               </blockquote>
             </div>
           </div>
-  
+
           <div class="carousel-item">
             <div class="card shadow-sm border-0 p-4 mx-auto" style="max-width: 600px;">
               <div class="d-flex align-items-center mb-3">
@@ -117,7 +116,7 @@
               </blockquote>
             </div>
           </div>
-  
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -130,14 +129,13 @@
       </div>
     </div>
   </section>
-  
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
-  
 
-  <footer class="bg-light text-center py-3">
+  <footer class="bg-light text-center py-3" data-aos="fade-up">
     <p>&copy; 2025 PM Pathfinder. All rights reserved.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
