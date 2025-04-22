@@ -1,0 +1,46 @@
+
+PM Pathfinder — Planning Document
+
+Website Title:
+PM Pathfinder — Your Roadmap to a Career in Product Management
+
+Objectives:
+The objective of this website is to serve as a structured, creative, and practical guide for individuals looking to break into Product Management. Whether they are career switchers, recent graduates, or early-career professionals, PM Pathfinder offers a curated path filled with tools, resources, and insights that demystify the transition into a PM role.
+
+Specifically, the website aims to:
+- Clarify the PM role and what it entails across industries.
+- Offer a roadmap from exploration to full-time job offer.
+- Curate high-impact resources (tools, books, prep material).
+- Encourage structured decision-making using mental models and real examples.
+
+Target Audience:
+1. Career Switchers — professionals in engineering, design, consulting, or operations who are looking to transition into product management roles.
+2. MBA Students — especially those without prior PM experience who are exploring internships and full-time roles.
+3. Aspiring PMs — recent graduates or early-career professionals who want clarity and guidance on next steps.
+
+Core Website Themes:
+- Education: What is product management? What skills are required?
+- Preparation: What resources and tools are most effective for interviews and job search?
+- Community: Highlight curated guidance and peer-reviewed resources that provide structure and motivation.
+
+Content to Convey:
+- Introduction to the PM role and types of PMs
+- Roadmap: exploration → preparation → job search → interview → offer
+- List of top PM tools (Notion, Figma, Miro, etc.)
+- Interview prep resources (product sense, execution, estimation, metrics)
+- Resume and LinkedIn tips tailored for PM roles
+- Your story: why you built this, what you’ve learned, and how others can benefit
+
+Planned Page Structure:
+Home: Overview, tagline, benefits of the site, and CTA
+Resources: Structured sections with tools, guides, interview prep, and templates
+About: Your story + motivation + how to connect
+
+Design Principles:
+- Clean, mobile-responsive layout using Bootstrap
+- Clear navigation bar across all pages
+- Use of semantic HTML5 elements (<header>, <nav>, <main>, <footer>)
+- Visually separated sections using <div>, <section>, and Bootstrap grid system
+- Thoughtful use of icons, buttons, and lists to guide navigation and structure
+
+
