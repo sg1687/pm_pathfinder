@@ -7,6 +7,7 @@
   <title>PM Pathfinder | Resources</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
   <header class="bg-primary text-white p-3">
@@ -22,75 +23,12 @@
 
   <main class="container my-5">
     <h2 class="text-center mb-4">Resources to Jumpstart Your PM Career</h2>
+
     <section>
       <h3>PM Roadmap</h3>
       <div class="accordion" id="pmRoadmap">
-
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-              1. Explore the PM Role
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#pmRoadmap">
-            <div class="accordion-body">
-              Understand what product managers do, types of PMs (technical, growth, etc.), and explore job descriptions on platforms like LinkedIn, Indeed, and PM career blogs.
-            </div>
-          </div>
-        </div>
-      
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-              2. Build Relevant Skills
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#pmRoadmap">
-            <div class="accordion-body">
-              Learn product thinking, user research, wireframing, data analytics, and basic tech literacy. Consider tools like Figma, Google Analytics, SQL, and roadmap planning.
-            </div>
-          </div>
-        </div>
-      
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-              3. Craft Your Resume & LinkedIn
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#pmRoadmap">
-            <div class="accordion-body">
-              Highlight impact, cross-functional collaboration, and outcomes. Tailor your resume for PM keywords. Optimize your LinkedIn headline and About section for searchability.
-            </div>
-          </div>
-        </div>
-      
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-              4. Practice Interviews
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#pmRoadmap">
-            <div class="accordion-body">
-              Practice product sense, execution, estimation, metrics, and behavioral questions. Use frameworks like CIRCLES, STAR, and partner with mock interview buddies.
-            </div>
-          </div>
-        </div>
-      
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-              5. Apply Strategically
-            </button>
-          </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#pmRoadmap">
-            <div class="accordion-body">
-              Track your job applications. Prioritize companies that fit your values and experience. Reach out to alumni or contacts for referrals.
-            </div>
-          </div>
-        </div>
-      
+        <!-- PM Roadmap steps as accordion items -->
+        <!-- [omitted for brevity — leave your existing roadmap code here] -->
       </div>
     </section>
 
@@ -106,13 +44,58 @@
 
     <section class="mt-4">
       <h3>Interview Prep</h3>
-      <p>Download our free PM Interview Toolkit to prepare for product sense, execution, and analytical questions.</p>
-      <a href="#" class="btn btn-outline-primary">Download Toolkit</a>
+      <p>Use this 2-week guided plan to prepare for behavioral and product case interviews. Inspired by a top Reddit guide.</p>
+
+      <div class="accordion" id="interviewPrep">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="weekOneHeading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#weekOne">
+              Week 1: Behavioral Questions
+            </button>
+          </h2>
+          <div id="weekOne" class="accordion-collapse collapse show" data-bs-parent="#interviewPrep">
+            <div class="accordion-body">
+              <ul>
+                <li>List common behavioral questions (Glassdoor, PM communities)</li>
+                <li>Write 8–10 detailed STAR stories from your experience</li>
+                <li>Rehearse and refine your answers</li>
+                <li>Memorize and practice with mock interviews</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="weekTwoHeading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#weekTwo">
+              Week 2: Product Case Questions
+            </button>
+          </h2>
+          <div id="weekTwo" class="accordion-collapse collapse" data-bs-parent="#interviewPrep">
+            <div class="accordion-body">
+              <ul>
+                <li>Read <em>Decode and Conquer</em> + <em>Cracking the PM Interview</em></li>
+                <li>Master frameworks: Product sense, metrics, execution</li>
+                <li>Practice with and without guidance</li>
+                <li>Book mock interviews with peers or mentors</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="https://www.reddit.com/r/ProductManagement/comments/mepgci/ace_the_next_product_manager_interview_with_this/" target="_blank" class="btn btn-outline-primary">
+          View Full Guide on Reddit
+        </a>
+      </div>
     </section>
   </main>
 
   <footer class="bg-light text-center py-3">
     <p>&copy; 2025 PM Pathfinder. All rights reserved.</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
